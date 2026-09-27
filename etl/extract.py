@@ -7,4 +7,5 @@ def extract_data(path="data/input.csv"):
         for row in reader:
             rows.append(row)
     # These changes are to test Feature Extract branch
+    # This is a second change to Feature Extract branch
     return rows
