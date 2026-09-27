@@ -6,4 +6,5 @@ def extract_data(path="data/input.csv"):
         reader = csv.DictReader(f)
         for row in reader:
             rows.append(row)
+    # These changes are to test Feature Extract branch
     return rows
